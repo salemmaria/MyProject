@@ -12,7 +12,8 @@ namespace WordGuessApplication
 {
     public partial class Form1 : Form
     {
-        private StringBuilder word = new StringBuilder("synesthesia");
+
+        private StringBuilder word = new StringBuilder("lol");
 
         public Form1()
         {
@@ -32,7 +33,7 @@ namespace WordGuessApplication
             if (isCorrect)
             {
                 message = "Correct guess!";
-                bttn_theWord.Text = "synesthesia";
+                bttn_theWord.Text = "lol";
                 MessageBox.Show(message);
 
                 txtBx_EnterGuessBox.Clear();
@@ -55,6 +56,7 @@ namespace WordGuessApplication
         {
             MessageBox.Show("Welcome to Word Guessing Game! Click OK to proceed.");
             MessageBox.Show("MAOT MOG NAWNG TANAN");
+            MessageBox.Show("kapoy");
         }
 
         private void bttn_theWord_Click(object sender, EventArgs e)
