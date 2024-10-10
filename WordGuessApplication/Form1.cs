@@ -57,6 +57,7 @@ namespace WordGuessApplication
             MessageBox.Show("Welcome to Word Guessing Game! Click OK to proceed.");
             MessageBox.Show("MAOT MOG NAWNG TANAN");
             MessageBox.Show("kapoy");
+            MessageBox.Show("di nako");
         }
 
         private void bttn_theWord_Click(object sender, EventArgs e)
